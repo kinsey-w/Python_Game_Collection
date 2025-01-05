@@ -10,7 +10,8 @@ This is a Python-based implementation of the classic Simon game, designed specif
 
 ## Hardware Requirements
 
-- **Raspberry Pi** (any model with GPIO support).
+- **Raspberry Pi Pico (W)**
+<br>Note: If you're using a different Raspberry Pi model, some modifications to the code and setup might be required.
 - **Common Anode RGB LED** (important: ensure you use a common anode RGB LED for compatibility with the PWM control in the script).
 - 4 Push Buttons (for red, green, yellow, and blue inputs).
 - Resistors (appropriate for LED and button circuits).
@@ -31,7 +32,7 @@ This is a Python-based implementation of the classic Simon game, designed specif
 ## Software Requirements
 
 - Python 3
-- Raspberry Pi OS (or any Linux-based OS compatible with Raspberry Pi).
+- Thonny IDE (Ensure Thonny is set up to work with MicroPython)
 - Libraries: `machine`, `utime`
 
 ## Circuit Diagram
