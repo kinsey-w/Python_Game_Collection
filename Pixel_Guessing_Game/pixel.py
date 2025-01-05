@@ -28,7 +28,7 @@ STANDARD_SIZE = (1300, 1000)
 def prepare_image(image_path):
     """Resize each image to have a fixed height, center horizontally within a 300x300 canvas."""
     image = Image.open(image_path)
-    target_height = STANDARD_SIZE[1]  # Fixed height (e.g., 300 pixels)
+    target_height = STANDARD_SIZE[1] 
     aspect_ratio = image.width / image.height
 
     # Calculate new dimensions to match the fixed height while maintaining aspect ratio
@@ -77,7 +77,7 @@ def start_game():
     difficulty = difficulty_var.get()
     guesses_left = difficulty_levels[difficulty]["guesses"]
     update_guess_label()
-    feedback_label.configure(text="")  # Clear any previous feedback
+    feedback_label.configure(text="") 
 
     # Check if all images have been displayed
     if len(displayed_images) == len(characters):
@@ -116,7 +116,7 @@ def check_guess(event=None):
             show_original_image(characters[answer])  # Show original image after incorrect guess
             root.after(2000, start_game)  # Wait 2 seconds before starting a new game
 
-# Character images (you can add more)
+# Character images
 characters = {
     "Luke": "images/luke_skywalker.png",
     "Kylo Ren": "images/kylo_ren.png",
