@@ -37,7 +37,7 @@ This is a Python-based implementation of the classic Simon game, designed specif
 
 ## Circuit Diagram
 
-![Breadboard Circuit Diagram](simon_circuit_diagram.png)
+![Breadboard Circuit Diagram](simon_circuit_diagram.png?v=1)
 
 
 ## How to Play
